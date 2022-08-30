@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-// import { Link } from 'react-scroll';
 import Logo from "../assets/logo.png";
 
 const Navbar = () => {
@@ -17,12 +16,24 @@ const Navbar = () => {
 
             {/* menu */}           
                 <ul className='hidden md:flex'>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Resume</li>
-                    <li>Contact</li>
+                <li>
+                    <a href="/">Home</a>
+                    </li>
+                <li>
+                    <a href="/about">About</a>
+                    </li>
+                <li>
+                    <a href="/projects">Projects</a>
+                    </li>
+                <li>
+                    <a href="/skills">Skills</a>
+                    </li>
+                <li>
+                    <a href="/resume">Resume</a>
+                    </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                    </li>
                 </ul>
             
             {/* Hamburger */}
@@ -32,12 +43,24 @@ const Navbar = () => {
 
             {/* mobile menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#2b2b46] flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl'>Home</li>
-                <li className='py-6 text-4xl'>About</li>
-                <li className='py-6 text-4xl'>Skills</li>
-                <li className='py-6 text-4xl'>Projects</li>
-                <li className='py-6 text-4xl'>Resume</li>
-                <li className='py-6 text-4xl'>Contact</li>
+                <li className='py-6 text-4xl'>
+                    <a href="/">Home</a>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <a href="/about">About</a>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <a href="/skills">Skills</a>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <a href="/projects">Projects</a>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <a href="/resume">Resume</a>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <a href="/contact">Contact</a>
+                </li>
             </ul>
 
             {/* social icons */}
