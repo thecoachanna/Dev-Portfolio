@@ -4,8 +4,8 @@ import styled from "styled-components";
 
 
 const Body = styled.div`
-  background: lavender;
-  color: #3d3d3d;
+  background: #ba7ba1;
+  color: #2b2b46;
 `;
 
 const ContactPage = () => {

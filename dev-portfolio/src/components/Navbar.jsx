@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logob.png";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2b2b46] text-[#f4f4f4]">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#F2EDEB] font-semibold text-[#2b2b46]">
             <div>
                 <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
             </div>
@@ -17,7 +16,7 @@ const Navbar = () => {
             {/* menu */}           
                 <ul className='hidden md:flex'>
                 <li>
-                    <a href="/">Home</a>
+                    <a href="/home">Home</a>
                     </li>
                 <li>
                     <a href="/about">About</a>
@@ -28,9 +27,7 @@ const Navbar = () => {
                 <li>
                     <a href="/skills">Skills</a>
                     </li>
-                <li>
-                    <a href="/resume">Resume</a>
-                    </li>
+                
                 <li>
                     <a href="/contact">Contact</a>
                     </li>
@@ -54,10 +51,7 @@ const Navbar = () => {
                 </li>
                 <li className='py-6 text-4xl'>
                     <a href="/projects">Projects</a>
-                </li>
-                <li className='py-6 text-4xl'>
-                    <a href="/resume">Resume</a>
-                </li>
+                </li>              
                 <li className='py-6 text-4xl'>
                     <a href="/contact">Contact</a>
                 </li>
@@ -66,21 +60,18 @@ const Navbar = () => {
             {/* social icons */}
             <div className='hidden lg:flex fixed flex-column top-[35%] left-0'>
                 <ul>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-[#f4f4f4]'
-                            href='/'>Linked In <FaLinkedin size={30} /></a>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#C94277]'>
+                        <a className='flex justify-between items-center w-full text-[#F2EDEB]'
+                            href='https://www.linkedin.com/in/thecoachanna/'>Linked In <FaLinkedin size={30} /></a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                        <a className='flex justify-between items-center w-full text-[#f4f4f4]'
-                            href='/'>Github <FaGithub size={30} /></a>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#BA7BA1]'>
+                        <a className='flex justify-between items-center w-full text-[#F2EDEB]'
+                            href='https://github.com/thecoachanna'>Github <FaGithub size={30} /></a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fe7171]'>
-                        <a className='flex justify-between items-center w-full text-[#f4f4f4]'
-                            href='/'>Email <HiOutlineMail size={30} /></a>
-                    </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                        <a className='flex justify-between items-center w-full text-[#f4f4f4]'
-                            href='/'>Resume <BsFillPersonLinesFill size={30} /></a>
+                    
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1cb3b5]'>
+                        <a className='flex justify-between items-center w-full text-[#F2EDEB]'
+                            href='https://docs.google.com/document/d/e/2PACX-1vTFxHgi8AdC94urn4L5CcPTaMlh1V2rKL2zM_N8IvkGlaJNDr3jM3Y-jRvuZLP8UYZR6bd5SnkYb6hD/pub'>Resume <BsFillPersonLinesFill size={30} /></a>
                     </li>
                 </ul>
             </div>

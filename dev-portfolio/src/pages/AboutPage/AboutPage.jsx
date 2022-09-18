@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const Body = styled.div`
-  background: lavender;
-  color: #3d3d3d;
+  background: #F2EDEB;
+  color: #2B2B46;
 `;
 
 const AboutPage = () => {
