@@ -51,12 +51,12 @@ const Projects = () => {
                 Node.js/Express App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://workoutbuddy.herokuapp.com/buddy/onboard">
+                <a href="https://workoutbuddy2.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/thecoachanna/Workout-Buddy">
+                <a href="https://github.com/thecoachanna/Workout-Buddy2.0">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
