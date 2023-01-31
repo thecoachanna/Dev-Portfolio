@@ -23,7 +23,7 @@ const About = () => {
               <br></br>
               <p>As a lifelong learner, I'm excited by the ever-evolving field of software engineering and facing new challenges.</p>
               <br></br>
-              <p>In 2023, I'm continuing to work hard in order to land my first full-time role as a Software Engineer and mentor other bootcamp graduates who are hoping to do the same.</p>  
+              <p>In 2023, I'm continuing to work hard in order to land my first full-time role as a Software Engineer and mentor other bootcamp graduates who are hoping to do the samep>  
               </div>
             </div>
         </div>

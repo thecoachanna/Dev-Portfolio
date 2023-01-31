@@ -22,8 +22,7 @@ const About = () => {
               <p>I am currently gaining hands-on experience in my internship working with serverless architecture and cloud computing within AWS. Specifically building functions in Lambda and implementing AWS Simple Email Service within our React app.</p>
               <br></br>
               <p>As a lifelong learner, I'm excited by the ever-evolving field of software engineering and facing new challenges.</p>
-              <br></br>
-              <p>In 2023, I'm continuing to work hard in order to land my first full-time role as a Software Engineer and mentor other bootcamp graduates who are hoping to do the same.</p>  
+              <p>In 2023, I'm continuing to work hard in order to land my first full-time role as a Software Engineer and mentor other bootcamp graduates who are hoping to do the same. My career in the fitness industry has taught me how to build relationships, extend empathy, value continued education, generate creative solutions and how to work within a multi-disciplinary team.</p>  
               </div>
             </div>
         </div>
